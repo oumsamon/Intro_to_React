@@ -41,28 +41,33 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## React Router
-install dependencies with "npm install react-router-dom".
+install dependencies with "npm install react-router-dom"  in CLI.
+
+update the following in their respective files in "src".
 
 // index.js
+
 import { BrowserRouter as Router } from "react-router-dom";
 
 //...
 
 ReactDOM.render(
-  \<Router>\
+```
+  <Router>
     <App />
   </Router>,
+```
   document.getElementById("root")
 );
 
 // app.js
 import { Route, Link } from "react-router-dom";
 
-
+```
 <Route />
 <Link />
 <Redirect />
-
+```
 
 ## Learn More
 
