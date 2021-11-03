@@ -6,19 +6,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Route />
+        <Link />
+        <Redirect /> */}
       </header>
+      <body>
+        {/* // routes render the specified component we pass in
+        <Route path="" render={}/>
+        // we can give either a render or a component prop.
+        <Route path="" component={}/> */}
+
+        {/* <Link to=""></Link>
+        <Link to=""></Link> */}
+
+        {/* <Route exact path="/" component={Home} />
+        <Route exact path="/A" component={ComponentA} />
+        <Route exact path="/B" component={ComponentB} /> */}
+      </body>
     </div>
   );
 }
